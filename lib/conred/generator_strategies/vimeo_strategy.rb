@@ -10,7 +10,7 @@ class Conred::Video::VimeoStrategy
   end
 
   def video_link
-    "//player.vimeo.com/video/#{@video_id}"
+    "//player.vimeo.com/video/#{@video_id}?color=ffffff"
   end
 
   private
